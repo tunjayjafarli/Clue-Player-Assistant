@@ -1,0 +1,63 @@
+Clue Player Assistant - Documentation
+
+Author: Tunjay Jafarli
+
+These are the valid cards representing suspects, weapons and rooms in the game:
+Suspects:
+	scarlet
+	plum
+	peacock
+	green
+	mustard
+	white
+Weapons:
+	knife
+	candlestick
+	pistol
+	rope
+	bat
+	ax
+Rooms:
+	kitchen
+	patio
+	spa
+	theatre
+	livingroom
+	observatory
+	hall
+	guesthouse
+	diningroom
+
+NOTE: The program recognizes the cards in exactly the same as specified above.
+
+After loading the program into the SWI-Prolog and compiling:
+
+- You may type in “showcards.” to see all the available cards in the game
+  (“start” will also do this once the number and names of players are entered)
+
+- Enter “start.” to start the program
+
+- Input all the requested information:
+   - The number of players must be between 2 and 6 (2 and 6 inclusive)
+   - Name of the players can be any name (e.g. numbers 1-6; or one,two,three and so on)
+   - Enter your player name (e.g. 1; one; two; ben)
+   - All the valid cards will also be printed with their types for reference.
+   - Enter the card(s) you have in hand (e.g. scarlet; plum; patio)
+   - Enter “yes.” if you have any other card(s); otherwise enter “no.”
+
+When finished entering the cards, the program will be initialized with the provided information.
+And it will start to specify whose turn is now. If it’s your turn, it will make a possible suggestion.
+
+After making suggestion, it will also ask if the other players skip or show any card(s) to disprove your suggestion.
+In case somebody shows a card, it will store that information into the database.
+
+If it’s other players’ turn, the program will ask if they make a suggestion or an accusation. In either case, it will request to enter the suggested or accused card.
+
+When the program reaches a point that there is sufficient evidence to deduce the details of the murder, it will tell you to make an accusation instead.
+
+
+- Type in “showall.” to see the contents of database
+
+
+
+
