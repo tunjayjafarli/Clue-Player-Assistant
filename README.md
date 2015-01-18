@@ -1,4 +1,4 @@
-# Clue Player Assistant
+# Clue-Player-Assistant
 
 Author: Tunjay Jafarli
 
