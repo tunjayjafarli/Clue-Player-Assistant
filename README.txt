@@ -1,4 +1,4 @@
-Clue Player Assistant - README file
+Clue Player Assistant - README
 
 Author: Tunjay Jafarli
 
