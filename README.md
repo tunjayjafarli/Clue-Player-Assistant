@@ -1,4 +1,5 @@
 # Clue Player Assistant
+
 Author: Tunjay Jafarli
 
 The program allows you to:
